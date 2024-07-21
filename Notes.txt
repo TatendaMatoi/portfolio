@@ -1,0 +1,16 @@
+Font Family - {
+    H1 - Oswald Medium
+    H2 - Montserrat Regular
+    P- Montserrat Regular || Semibold
+    H3 - Oswald Regular
+}
+Font Sizes - 
+Color palettes - {
+    /* CSS HEX */
+--coyote: #876a48ff;
+--seasalt: #f7f7f7ff;
+--isabelline: #f1f0ecff;
+--black-olive: #364236ff;
+--timberwolf: #d6cdc4ff;
+--raisin-black: #151724ff;
+}
