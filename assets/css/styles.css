@@ -1,3 +1,21 @@
+/*
+Font Family - {
+    H1 - Oswald Medium
+    H2 - Montserrat Regular
+    P- Montserrat Regular || Semibold
+    H3 - Oswald Regular
+}
+Font Sizes - 
+Color palettes - {
+    CSS HEX 
+    --coyote: #876a48ff;
+    --seasalt: #f7f7f7ff;
+    --isabelline: #f1f0ecff;
+    --black-olive: #364236ff;
+    --timberwolf: #d6cdc4ff;
+    --raisin-black: #151724ff;
+*/
+
 body {
   margin: 0;
 }
@@ -116,7 +134,7 @@ header {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(54, 66, 54, 0.567);
   justify-content: center;
   align-items: center;
   z-index: 1000;
@@ -179,8 +197,194 @@ header {
   padding-left: 20px;
   flex: 1;
 }
+#call-to-action {
+  background-color: #364236ff;
+  color: #f1f0ecff;
+  padding: 14px 40px;
+  box-shadow: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
 .right-hero {
   display: flex;
   flex: 1;
   justify-content: center;
+}
+
+/* About Section */
+#about {
+  padding: 50px 20px;
+  background-color: #f1f0ecff;
+  color: #364236ff;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* Skills Section */
+#skills {
+  padding: 50px 20px;
+  background-color: #f1f0ecff;
+  color: #364236ff;
+}
+
+#skills h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills-list div {
+  margin: 20px;
+  text-align: center;
+}
+
+.skills-list h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skills-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 18px;
+}
+
+/* Experience Section */
+#experience {
+  padding: 50px 20px;
+  background-color: #d6cdc4ff;
+  color: #364236ff;
+}
+
+#experience h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job {
+  margin: 20px 0;
+}
+
+.job h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job p,
+.job ul {
+  font-size: 18px;
+}
+
+.job ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Projects Section */
+#projects {
+  padding: 50px 20px;
+  background-color: #f7f7f7ff;
+  color: #364236ff;
+}
+
+#projects h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project {
+  margin: 20px 0;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 18px;
+}
+
+/* Education Section */
+#education {
+  padding: 50px 20px;
+  background-color: #f1f0ecff;
+  color: #364236ff;
+}
+
+#education h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.education-item {
+  margin: 20px 0;
+}
+
+.education-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 18px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 20px;
+  background-color: #d6cdc4ff;
+  color: #364236ff;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.platforms {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.platforms a {
+  font-size: 24px;
+  color: #364236ff;
+  text-decoration: none;
+}
+
+.platforms a:hover {
+  text-decoration: underline;
 }
