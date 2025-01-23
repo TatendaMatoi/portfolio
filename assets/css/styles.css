@@ -15,9 +15,12 @@ Color palettes - {
     --timberwolf: #d6cdc4ff;
     --raisin-black: #151724ff;
 */
-
+b {
+  font-weight: 500;
+}
 body {
   margin: 0;
+  scroll-behavior: smooth;
 }
 h1 {
   font-family: "Oswald", sans-serif;
@@ -206,10 +209,23 @@ header {
   font-family: "Montserrat", sans-serif;
   margin-top: 20px;
 }
+#call-to-action a {
+  text-decoration: none;
+  color: #f1f0ecff;
+}
+
+#call-to-action:hover {
+  background-color: #876a48ff;
+}
 .right-hero {
   display: flex;
   flex: 1;
   justify-content: center;
+}
+
+/*Under sonstruction*/
+#construction {
+  width: 50%;
 }
 
 /* About Section */
